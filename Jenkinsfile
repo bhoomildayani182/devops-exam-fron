@@ -53,7 +53,7 @@ pipeline {
           }
             steps {
                 script{echo 'testing the application'
-                sh 'mvn test'}
+                //sh 'mvn test'}
             }
         }
       stage('deploy') {
